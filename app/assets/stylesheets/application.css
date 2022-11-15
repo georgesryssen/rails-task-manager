@@ -14,7 +14,7 @@
  *= require_self
  */
 
- /* The container */
+ /* The container2 */
 
  a {
   text-decoration: none;
@@ -22,13 +22,18 @@
 
 h1 {
   padding-left: 25px;
+  margin: 30px auto;
+}
+
+ul {
+  margin-bottom: 30px;
 }
 
 p {
   padding-left: 25px;
 }
 
-.container {
+.container2 {
   display: block;
   position: relative;
   padding-left: 45px;
@@ -42,7 +47,7 @@ p {
 }
 
 /* Hide the browser's default checkbox */
-.container input {
+.container2 input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
@@ -61,12 +66,12 @@ p {
 }
 
 /* On mouse-over, add a grey background color */
-.container:hover input ~ .checkmark {
+.container2:hover input ~ .checkmark {
   background-color: #ccc;
 }
 
 /* When the checkbox is checked, add a blue background */
-.container input:checked ~ .checkmark {
+.container2 input:checked ~ .checkmark {
   background-color: #2196F3;
 }
 
@@ -78,12 +83,12 @@ p {
 }
 
 /* Show the checkmark when checked */
-.container input:checked ~ .checkmark:after {
+.container2 input:checked ~ .checkmark:after {
   display: block;
 }
 
 /* Style the checkmark/indicator */
-.container .checkmark:after {
+.container2 .checkmark:after {
   left: 9px;
   top: 5px;
   width: 5px;
